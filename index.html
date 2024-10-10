@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LLM in the browser experiment</title>
+    <link rel="stylesheet" href="/app.css">
+    <script src="/app.js" defer></script>
+</head>
+<body>
+<h1>LLM in the browser experiment</h1>
+<video id="video" autoplay muted></video>
+<button class="action-button start" id="startSpeakingButton" disabled>Start speaking</button>
+<div id="speakNowMessage" class="no-display">
+    <h2>Speak now</h2>
+    <p>It will try to collect your name, age, role, and work skills.</p>
+    <button class="action-button stop" id="stopSpeakingButton">Stop speaking</button>
+</div>
+<div id="processing" class="no-display">
+    <h2>Processing...</h2>
+</div>
+<div id="infoContainer" class="container no-display">
+    <div class="column">
+        <label for="fullName">Full name:</label>
+        <p id="fullName"></p>
+    </div>
+    <div class="column">
+        <label for="age">Age:</label>
+        <p id="age"></p>
+    </div>
+    <div class="column">
+        <label for="country">Country of residence:</label>
+        <p id="country"></p>
+    </div>
+    <div class="column">
+        <label for="role">Role:</label>
+        <p id="role"></p>
+    </div>
+    <div class="column">
+        <label for="skills">Work skills:</label>
+        <p id="skills"></p>
+    </div>
+</div>
+<footer>
+    <p>A little experiment by <a href="https://www.linkedin.com/in/aldo-vincenti" target="_blank">Aldo Vincenti</a>.</p>
+</footer>
+</body>
+</html>

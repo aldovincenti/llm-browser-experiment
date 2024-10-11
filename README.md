@@ -2,6 +2,8 @@
 
 This project is a fun experiment to test the new LLM model by Google that runs locally in the browser.
 
+[Live demo](https://aldovincenti.github.io/llm-browser-experiment).
+
 ## Prerequisites
 
 1. **Download Chrome Dev or Canary Channel** (version **≥ 129.0.6667.0**).

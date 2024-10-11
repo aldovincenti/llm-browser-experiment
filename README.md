@@ -31,7 +31,7 @@ This project is a fun experiment to test the new LLM model by Google that runs l
    ```javascript
    (await ai.assistant.capabilities()).available;
    ```
-   - If it returns **“readily,”** you’re set.
+   - If it returns **“readily”** you’re set.
 
 2. If it fails, run:
    ```javascript
